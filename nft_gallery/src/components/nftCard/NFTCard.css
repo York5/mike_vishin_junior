@@ -1,0 +1,28 @@
+.nft_card {
+  width: 200px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  transition: transform 450ms ease-in;
+}
+
+.nft_card:hover {
+  transform: scale(1.02);
+}
+
+.card_inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card_actions_block {
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+}
+
+.details_button {
+  text-align: center;
+  /* margin-top: auto; */
+}

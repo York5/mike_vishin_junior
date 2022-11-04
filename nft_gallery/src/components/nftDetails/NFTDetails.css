@@ -1,0 +1,19 @@
+.details {
+  display: flex;
+  margin: 50px auto;
+  max-width: 80%;
+}
+
+/* .details__image {
+  border-radius: 50%;
+} */
+
+.details__info {
+  width: 70%;
+  text-align: left;
+  padding: 50px;
+}
+
+.details span {
+  color: black;
+}
